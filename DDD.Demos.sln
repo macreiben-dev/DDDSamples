@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Demos", "DDD.Demos\DDD.Demos.csproj", "{37EF6B2D-A397-4801-801E-CB60847AB351}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Demos.ValueObjects", "DDD.Demos.ValueObjects\DDD.Demos.ValueObjects.csproj", "{E5639813-F4F9-4976-A2CF-86A280CB71E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Demos.ValueObjects", "DDD.Demos.ValueObjects\DDD.Demos.ValueObjects.csproj", "{E5639813-F4F9-4976-A2CF-86A280CB71E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Demos.ValueObjects.Tests", "DDD.Demos.ValueObjects.Tests\DDD.Demos.ValueObjects.Tests.csproj", "{74A83DC6-442E-44C6-9DAC-CDA91DABFA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Demos.ValueObjects.Tests", "DDD.Demos.ValueObjects.Tests\DDD.Demos.ValueObjects.Tests.csproj", "{74A83DC6-442E-44C6-9DAC-CDA91DABFA68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37EF6B2D-A397-4801-801E-CB60847AB351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37EF6B2D-A397-4801-801E-CB60847AB351}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37EF6B2D-A397-4801-801E-CB60847AB351}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37EF6B2D-A397-4801-801E-CB60847AB351}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5639813-F4F9-4976-A2CF-86A280CB71E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5639813-F4F9-4976-A2CF-86A280CB71E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5639813-F4F9-4976-A2CF-86A280CB71E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
