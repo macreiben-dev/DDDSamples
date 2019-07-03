@@ -1,10 +1,7 @@
 ﻿using DDD.Demos.ValueObjects.Lasergame;
-using DDD.Demos.ValueObjects.Lasergame.Ammunitions.ValueTypes;
 using NFluent;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.ValueTypes
 {

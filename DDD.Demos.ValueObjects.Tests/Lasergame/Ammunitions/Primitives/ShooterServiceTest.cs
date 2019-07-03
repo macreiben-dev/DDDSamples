@@ -7,6 +7,7 @@ using System;
 
 namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.Primitives
 {
+    [Category("Primitive type based")]
     public sealed class ShooterServiceTest
     {
         private IShooterRepository _shooterRepo;

@@ -4,4 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Lasergame\Ammunitions\ValueTypes\IShooterValueTypedRepository.cs" />
+    <Compile Remove="Lasergame\Ammunitions\ValueTypes\ShooterValueTyped.cs" />
+    <Compile Remove="Lasergame\Ammunitions\ValueTypes\ShooterValueTypedService.cs" />
+  </ItemGroup>
+
 </Project>
