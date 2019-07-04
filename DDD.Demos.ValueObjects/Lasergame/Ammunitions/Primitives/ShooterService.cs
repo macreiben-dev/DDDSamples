@@ -16,7 +16,7 @@ namespace DDD.Demos.ValueObjects.Lasergame.Ammunitions.Primitives
         {
             Shooter shooterToUpdate = _shooterRepository.GetById(shooterId);
 
-            if (shooterToUpdate.Ammunitions > MaxLoadout) // Yes one can create a method
+            if (shooterToUpdate.Ammunitions > MaxLoadout)
             {
                 throw new ArgumentException($"Maximum loadout is {MaxLoadout}.");
             }
@@ -35,7 +35,7 @@ namespace DDD.Demos.ValueObjects.Lasergame.Ammunitions.Primitives
         {
             Shooter shooterToUpdate = _shooterRepository.GetById(shooterId);
 
-            if (shooterToUpdate.Ammunitions > MaxLoadout) // Yes one can create a method
+            if (shooterToUpdate.Ammunitions > MaxLoadout)
             {
                 throw new ArgumentException($"Maximum loadout is {MaxLoadout}.");
             }

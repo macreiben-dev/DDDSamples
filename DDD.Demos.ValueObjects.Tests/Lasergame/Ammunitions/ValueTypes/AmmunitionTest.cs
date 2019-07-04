@@ -15,7 +15,6 @@ namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.ValueTypes
             return new Ammunition();
         }
 
-
         [Test]
         public void Should_decrease_ammunition_when_shooting()
         {
@@ -80,25 +79,19 @@ namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.ValueTypes
                 .WithMessage("Maximum loadout is 10.");
         }
 
-        #region Very hard to write in a service
-
         [Test]
-        [Ignore("")]
-        public void Should_be_empty_by_default()
+        public void Should_start_with_empty_magazine()
         {
             Check.That(new Ammunition().IsEmpty()).IsTrue();
         }
 
         [Test]
-        [Ignore("")]
-        public void Should_be_empty_when_initialLoadout_is_zero()
+        public void Should_be_empty_when_initialLoadout_is_zero() // Value object specific
         {
             // ARRANGE
             Ammunition target = new Ammunition(Zero);
 
             Check.That(target.IsEmpty()).IsTrue();
         }
-
-        #endregion Very hard to write in a service
     }
 }

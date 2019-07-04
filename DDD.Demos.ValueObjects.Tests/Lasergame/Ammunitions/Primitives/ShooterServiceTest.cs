@@ -108,7 +108,7 @@ namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.Primitives
         }
 
         [Test]
-        public void Should_fail_when_one_shooter_has_more_thanMaxLoadout_WHEN_RELOAD()
+        public void Should_fail_when_one_shooter_has_more_than_MaxLoadout_WHEN_RELOAD()
         {
             // ARRANGE
             _originalShooter.Ammunitions = 100;
