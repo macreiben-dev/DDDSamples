@@ -2,8 +2,9 @@ using DDD.Demos.ValueObjects.Lasergame;
 using NFluent;
 using NUnit.Framework;
 
-namespace Tests
+namespace DDD.Demos.ValueObjects.Tests.Lasergame.Ammunitions.Primitives
 {
+    [Category("Primitive type based")]
     public class ShooterTest
     {
         [SetUp]
@@ -16,7 +17,6 @@ namespace Tests
             return new Shooter();
         }
 
-        [Category("Primitive type based")]
         [Test]
         public void Should_start_with_empty_magazine()
         {
